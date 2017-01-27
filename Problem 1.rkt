@@ -1,5 +1,5 @@
 (DEFINE (reverse-general L)
         (cond ((null? L) '())
-              (else (cons (car L)(cdr L)))
+              (else (cons (cdr L)(car L)))
         )
 )
